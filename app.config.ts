@@ -12,7 +12,8 @@ export default defineAppConfig({
       exclude: []
     },
     header: {
-      logo: true
+      logo: true,
+      title: 'JehangirKazi.com'
     },
     footer: {
       iconLinks: [
