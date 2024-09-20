@@ -12,6 +12,7 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@nuxthq/studio',
     '@nuxt/image',
+    '@nuxtjs/color-mode',
   ],
 
   compatibilityDate: '2024-09-19',

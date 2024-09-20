@@ -1,3 +1,16 @@
+<template>
+  <UHorizontalNavigation :links="links" class="border-b border-gray-200 dark:border-gray-800" />
+  <!-- 
+  <nav>
+    <ContentNavigation v-slot="{ navigation }">
+      <ul>
+        <li v-for="link of navigation" :key="link._path">
+          <NuxtLink :to="link._path">{{ link.title }}</NuxtLink>
+        </li>
+      </ul>
+    </ContentNavigation>
+  </nav> -->
+</template>
 <script setup lang="ts">
 
 const { data: navigation } = await useAsyncData(
@@ -27,17 +40,3 @@ const links = [
 ]
 
 </script>
-
-<template>
-  <UHorizontalNavigation :links="links" class="border-b border-gray-200 dark:border-gray-800" />
-  <!-- 
-  <nav>
-    <ContentNavigation v-slot="{ navigation }">
-      <ul>
-        <li v-for="link of navigation" :key="link._path">
-          <NuxtLink :to="link._path">{{ link.title }}</NuxtLink>
-        </li>
-      </ul>
-    </ContentNavigation>
-  </nav> -->
-</template>
