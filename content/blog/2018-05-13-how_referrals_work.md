@@ -11,10 +11,20 @@ But before that, just a disclaimer that this is true to the best of my knowledge
  and is my experience. Your experience might be different and if so, feel free 
  to contact me to correct anything.
 
-In Google the hiring process is something like: Automated resume screening 
--&gt; Recruiter resume screening -&gt; online test/quiz -&gt; 
-technical interviews (2 for internship, 4/5 for full time) -&gt; team matching 
--&gt; offer. Note the online quiz might be skipped in some circumstances, but 
+In Google the hiring process is something like: 
+
+- Automated resume screening; 
+
+- Recruiter resume screening; online test/quiz 
+
+- technical interviews (2 for internship, 4/5 for full time) 
+
+- team matching 
+
+- offer.
+
+
+Note the online quiz might be skipped in some circumstances, but 
 is usually conducted for fresh graduates.
 
 Now what an employee referral does for you is guarantee that a recruiter will 

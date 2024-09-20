@@ -12,7 +12,6 @@
   </nav> -->
 </template>
 <script setup lang="ts">
-
 const { data: navigation } = await useAsyncData(
   'navigation', () => fetchContentNavigation())
 // const links = 

@@ -1,6 +1,4 @@
 export default defineNuxtConfig({
-  // extends: '@nuxt-themes/docus',
-  // compatibilityDate: '2024-09-19',
   devtools: { enabled: true },
 
   routeRules: {
