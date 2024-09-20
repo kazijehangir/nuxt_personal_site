@@ -1,6 +1,4 @@
-# Docus Starter
-
-Starter template for [Docus](https://docus.dev).
+# Non-Docus base Nuxt branch
 
 ## Clone
 
