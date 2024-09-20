@@ -34,9 +34,7 @@ is much you can do to optimize your resume for this step. Make a good resume
 
 
 If you can get a referral into the company, you can skip this step altogether. 
-Take a look at my post about
-[how referrals work](how-referrals-work)
-for a detailed explaination.
+Take a look at my post about how-referrals-work for a detailed explaination.
 
 
 
