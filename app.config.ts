@@ -1,4 +1,8 @@
 export default defineAppConfig({
+  ui: {
+    primary: 'lime',
+    gray: 'neutral',
+  },
   docus: {
     title: 'JehangirKazi.com',
     description: 'Staying Curious',
