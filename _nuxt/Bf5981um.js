@@ -1,1 +1,0 @@
-import{f as c}from"./Dnd51l0P.js";import{Y as a,k as f,c as u,e as l}from"./DK1M1OGk.js";const o=(r,e,t,...n)=>r[e]?a({...r,[e]:()=>c(r[e](),t==null?void 0:t.unwrap)},e,t,...n):a(r,e,t,...n),d={};function _(r,e){return u(),l("div",null,[o(r.$slots,"default",{unwrap:"p"})])}const m=f(d,[["render",_]]);export{m as default};
