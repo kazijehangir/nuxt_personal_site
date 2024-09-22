@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+// const colors = require('tailwindcss/colors')
+
 export const content = [
   "./components/**/*.{js,vue,ts}",
   "./layouts/**/*.vue",
@@ -9,9 +11,22 @@ export const content = [
 ];
 export const theme = {
   typography: {
-    default: {},
+    default: {
+      css: {
+        'code::before': {
+          content: '""',
+        },
+        'code::after': {
+          content: '""',
+        },
+      },
+    },
   },
-  extend: {},
+  extend: {
+    colors: {
+      orange: colors.orange,
+    }
+  },
 };
 export const plugins = [];
 

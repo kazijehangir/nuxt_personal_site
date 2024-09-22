@@ -5,14 +5,17 @@ const colorMode = useColorMode()
 </script>
 
 <template>
-  <div class="flex justify-between">
-    <TopNavbar />
+  <div class="flex w-full">
+    <div class="flex w-5/6 justify-start">
+      <TopNavbar />
+    </div>
+    <div class="flex w-1/6 justify-center">
+      <ThemeSelect />
+    </div>
     <!-- TODO: Fix layout of color select -->
-    <ColorScheme>
+    <!-- <ColorScheme>
       <USelect v-model="colorMode.preference" :options="['system', 'light', 'dark']" />
-    </ColorScheme>
-    <ThemeSelect />
-
+    </ColorScheme> -->
   </div>
 
   <UContainer>
