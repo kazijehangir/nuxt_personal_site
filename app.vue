@@ -6,10 +6,10 @@ const colorMode = useColorMode()
 
 <template>
   <div class="flex w-full border-b border-gray-200 dark:border-gray-800">
-    <div class="flex w-5/6 justify-start">
+    <div class="flex grow justify-start px-2">
       <TopNavbar />
     </div>
-    <div class="flex w-1/6 justify-center">
+    <div class="flex justify-end px-5 py-2  border-l border-gray-200 dark:border-gray-800">
       <ThemeSelect />
     </div>
     <!-- TODO: Fix layout of color select -->
