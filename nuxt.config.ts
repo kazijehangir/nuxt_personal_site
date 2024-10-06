@@ -14,6 +14,10 @@ export default defineNuxtConfig({
     '/': { prerender: true }
   },
 
+  icon: {
+    provider: 'iconify'
+  },
+  
   modules: [
     '@nuxt/ui',
     '@nuxt/content',

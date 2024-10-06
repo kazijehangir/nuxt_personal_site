@@ -1,24 +1,20 @@
 <template>
-  <UHorizontalNavigation :links="links">
-    <template #default="{ link }">
-      <span class="group-hover:text-primary relative">{{ link.label }}</span>
-    </template>
-  </UHorizontalNavigation>
-  <!-- 
-  <nav>
-    <ContentNavigation v-slot="{ navigation }">
-      <ul>
-        <li v-for="link of navigation" :key="link._path">
-          <NuxtLink :to="link._path">{{ link.title }}</NuxtLink>
-        </li>
-      </ul>
-    </ContentNavigation>
-  </nav> -->
+  <div class="flex w-full border-b border-gray-200 dark:border-gray-800">
+    <div class="flex grow justify-start px-2">
+      <UHorizontalNavigation :links="links">
+        <template #default="{ link }">
+          <span class="group-hover:text-primary relative">{{ link.label }}</span>
+        </template>
+      </UHorizontalNavigation>
+    </div>
+    <div class="flex justify-end px-5 py-2  border-l border-gray-200 dark:border-gray-800">
+      <ThemeSelect />
+    </div>
+  </div>
 </template>
 <script setup lang="ts">
 const { data: navigation } = await useAsyncData(
   'navigation', () => fetchContentNavigation())
-// const links = 
 
 const links = [
   [{
