@@ -5,7 +5,7 @@ const colorMode = useColorMode()
 </script>
 
 <template>
-  <div class="flex w-full">
+  <div class="flex w-full border-b border-gray-200 dark:border-gray-800">
     <div class="flex w-5/6 justify-start">
       <TopNavbar />
     </div>
